@@ -99,7 +99,7 @@ const Homepage = () =>{
 				<div className='row justify-content-center'>
 					<div className='col-lg-12'>
 						<div className={`${styles.intro_text} mt-2`}>
-							Connect with fellow Cryptobuddies
+							Connect with fellow Cryptobuddi
 						</div>
 					</div>
 				</div>
