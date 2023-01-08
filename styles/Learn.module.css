@@ -1,0 +1,34 @@
+.wrap{
+	width:100%;
+	height:100%;
+	background:#fff;
+	padding:0 9%;
+}
+.slides{
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	/*background:red;*/
+	/*column-gap:5rem;*/
+}
+.slides img{
+	width:70%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	object-fit: cover;
+	border-radius:10px;
+}
+@media screen and (max-width: 991px){
+	.slides{
+		display: flex;
+		justify-content:center;
+		align-items: center;
+		flex-wrap: wrap;
+		margin:auto;
+	}
+	.slides img{
+		width:100%;
+	}
+}
