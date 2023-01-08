@@ -6,7 +6,7 @@ import Logo from '../components/Logo/Logo'
 import Post from '../components/Posts/Posts'
 import PostTwo from '../components/PostsTwo/PostsTwo'
 import PostThree from '../components/PostsThree/PostsThree'
-// import {getAllposts} from '../posts/hooks/getAllposts'
+import {getAllposts} from '../posts/hooks/getAllposts'
 
 
 const Homepage = () =>{
@@ -19,11 +19,11 @@ const Homepage = () =>{
 			<Navbar/>
 			<Search/>
 
-			{/*<div className='container-fluid'>
+			{<div className='container-fluid'>
 				<div className='row'>
 					{getAllposts}
 				</div>
-			</div>*/}
+			</div>}
 
 			{/*metamask wallet etension
 			web3.js npm*/}
