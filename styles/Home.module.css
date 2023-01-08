@@ -165,7 +165,7 @@
 }
 @media only screen and (max-width:768px){
 	.menu{
-		height:40vh;
+	    height:40vh;
 	}
 	.clip1, .clip2, .clip3, .clip4, .clip5, .clip6, .clip7{
 		min-width:200px;
